@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: makemytrip
+
+  mongodb:
+    uri: mongodb+srv://v72766248_db_user:TypinGG@main.qjzaibg.mongodb.net/makemytrip?appName=main
+
+server:
+  port: 8081
+
+
