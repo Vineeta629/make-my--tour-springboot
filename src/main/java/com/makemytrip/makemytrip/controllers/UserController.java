@@ -12,7 +12,7 @@ import com.makemytrip.makemytrip.services.UserServices;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*",allowedHeaders = "*")
 public class UserController {
     @Autowired
     private UserServices userServices;
