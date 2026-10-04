@@ -5,7 +5,7 @@ const BACKEND_URL = "https://make-my-tour-springboot-1.onrender.com";
 export const login = async (email, password) => {
   try {
     const url = `${BACKEND_URL}/user/login?email=${email}&password=${password}`;
-    const res = await axios.post(url);
+    const res = await axios.post(url,{});
     const data = res.data;
     // console.log(data);
     return data;
